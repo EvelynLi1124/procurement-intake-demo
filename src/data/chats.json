@@ -1,0 +1,3032 @@
+{
+ "0": {
+  "items": [
+   {
+    "type": "welcome"
+   }
+  ],
+  "input": {
+   "text": "Tell me your objective...",
+   "active": false
+  },
+  "createNew": false,
+  "chatAlign": "SPACE_BETWEEN",
+  "chatGap": 16.0,
+  "chatPad": [
+   0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.1": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Do you have a new or existing supplier?"
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "suggest",
+    "title": "Select to get started",
+    "pills": [
+     "I have an existing supplier",
+     "I have a new supplier",
+     "I’m not sure "
+    ],
+    "tile": null
+   }
+  ],
+  "input": {
+   "text": "Tell me your objective...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MIN",
+  "chatGap": 16.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.2": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "EDL Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Do you have a new or existing contract?"
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I have an existing supplier"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\n"
+     },
+     {
+      "t": "What's the supplier(s) to be engaged for contract?\n"
+     },
+     {
+      "t": "Which country or region is associated with the supplier you're working with? \nWhich Manulife company will be purchasing and paying for this contract?\n"
+     },
+     {
+      "t": "The more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "suggest",
+    "title": "Prompt example",
+    "pills": [],
+    "tile": "My contract wil cover [describe the products, services]. I need this contract because [provide the reason]. The total cost is expected to be [provide value, currency]. The supplier for this contract will be  [provide supplier name]. I don’t know what supplier I intend to work with. This contract will be executed in [provide region]."
+   }
+  ],
+  "input": {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.|",
+   "active": true
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 16.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.2.1": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "EDL Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Do you have a new or existing contract?"
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I have a new supplier"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nWhich Manulife company will be purchasing and paying for this contract?\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "suggest",
+    "title": "Prompt example",
+    "pills": [],
+    "tile": "My contract wil cover [describe the products, services]. I need this contract because [provide the reason]. The total cost is expected to be [provide value, currency]. The supplier for this contract will be  [provide supplier name]. I don’t know what supplier I intend to work with. This contract will be executed in [provide region]."
+   }
+  ],
+  "input": {
+   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.|",
+   "active": true
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 16.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.3": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase a [commodity] with [EXISTING supplier name]."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.4": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase a [commodity] with [EXISTING supplier name]."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "Supplier location: Canada\nEstimated spend / Currency: 30000 USD"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier",
+      "w": 600
+     },
+     {
+      "t": "."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.5": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with [Supplier Name]. To help us ensure that we've selected the correct supplier please select the contract that best matches previous engagements with [Supplier Name]."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objective...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6.1": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6.2": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6.3": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6.4": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6.5": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6.6": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6.7": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.6.8": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.7": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Please answer the PSQ questions on the right. Click "
+     },
+     {
+      "t": "Continue ",
+      "w": 600
+     },
+     {
+      "t": "to move forward."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.7.1": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency). \nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Tell me what you'd like to do and provide any details that may be relevant to your request. You can also upload supporting documents, such as emails, renewal quotes, draft contracts, or redlined documents. The more information you provide, the more I can help complete your request."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.8": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need a new contract with a new supplier."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Share the project goal, supplier, spend, and timeline. I’ll help complete the intake."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "Supplier: Northstar Analytics Ltd.\nRegion: Canada"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found a new supplier record. Please review the supplier details on the right."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "Northstar Analytics Ltd."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "The new supplier details are ready. Review the required fields on the right, then continue."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "Northstar Analytics Ltd."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I’ve prepared a new contract intake. Review the required fields on the right, then continue."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Tell me what you need, who the supplier is, estimated spend, and target timeline. You can upload a quote or draft contract to help complete the intake."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me about your procurement needs...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 16.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.8.1": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need to set up a new contract"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "To get started, "
+     },
+     {
+      "t": "upload any documents you already have",
+      "w": 600
+     },
+     {
+      "t": " (for example, a draft agreement, quote, statement of work, email, or proposal).\n\n"
+     },
+     {
+      "t": "Don’t have document(s)? \n",
+      "i": 1
+     },
+     {
+      "t": "You can also tell me:\n",
+      "w": 600
+     },
+     {
+      "t": "What you're looking to buy or the service you need\nWhy you need it\nThe estimated cost (including currency, if known)\nWho you'd like to work with (if you've already identified a supplier)\nThe more information you share, the more I can complete for you automatically. You'll be able to review and update everything before submitting."
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE",
+     "NONE",
+     "NONE",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "UNORDERED",
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "I need to purchase cloud hosting services with a spend limit of 30,000 USD. Preferred supplier: Microsoft Azure."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Thanks. I've reviewed the information provided and captured what I could from your request. \nThere are a few remaining details highlighted on the right. "
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found possible matches for the supplier name in our records. Please help me to "
+     },
+     {
+      "t": "confirm the supplier.",
+      "w": 600
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found several contracts with "
+     },
+     {
+      "t": "Insight Canada",
+      "w": 600
+     },
+     {
+      "t": ". Please select the contract that matches your request. If you're unsure, select "
+     },
+     {
+      "t": "None of the above/ I'm not sure",
+      "w": 600
+     },
+     {
+      "t": ". I'll keep all matching contracts in consideration and continue gathering information to help identify the correct one."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency)"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Great! Matched to INSIGHT CANADA INC (MS OFFCIE LICENSE - 2024 LTSC Standard - HK Agency).\nYour contract request in in-scope. I’ll help you finish the rest of steps. Please review and click Continue to move forward"
+     }
+    ],
+    "lines": [
+     "NONE",
+     "NONE"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Please answer the PSQ questions on the right. Click "
+     },
+     {
+      "t": "Continue ",
+      "w": 600
+     },
+     {
+      "t": "to move forward."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "Access to Manulife information: “yes”\nUse AI: “yes”\nSupport critical operation: “yes”"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activity",
+    "expanded": false,
+    "status": null,
+    "detail": []
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Your purchase qualifies for a Direct Purchase. The next step is to create a non-catalog Purchase Requisition (PR) in Ivalua to initiate your request."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me your objectives...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 24.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ },
+ "1.9": {
+  "items": [
+   {
+    "type": "user",
+    "text": "I need a new contract with a new supplier."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "Processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Share the project goal, supplier, spend, and timeline. I’ll help complete the intake."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "Supplier: Northstar Analytics Ltd.\nRegion: Canada"
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I found a new supplier record. Please review the supplier details on the right."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "Northstar Analytics Ltd."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "The new supplier details are ready. Review the required fields on the right, then continue."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "user",
+    "text": "Northstar Analytics Ltd."
+   },
+   {
+    "type": "activity",
+    "label": "Agent activities",
+    "expanded": true,
+    "status": "EDL agent processing and reply delivered",
+    "detail": [
+     "Done"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "I’ve prepared a new contract intake. Review the required fields on the right, then continue."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   },
+   {
+    "type": "bot",
+    "runs": [
+     {
+      "t": "Tell me what you need, who the supplier is, estimated spend, and target timeline. You can upload a quote or draft contract to help complete the intake."
+     }
+    ],
+    "lines": [
+     "NONE"
+    ]
+   }
+  ],
+  "input": {
+   "text": "Tell me about your procurement needs...",
+   "active": false
+  },
+  "createNew": true,
+  "chatAlign": "MAX",
+  "chatGap": 16.0,
+  "chatPad": [
+   24.0,
+   32.0,
+   0,
+   32.0
+  ]
+ }
+}

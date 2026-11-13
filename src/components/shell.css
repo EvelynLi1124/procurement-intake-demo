@@ -1,0 +1,35 @@
+.app { min-height: var(--app-h, 100vh); display: flex; flex-direction: column; min-width: 1440px; }
+.nav-header {
+  position: sticky; top: 0; z-index: 2; height: 80px; flex: none; background: #fff; box-shadow: var(--shadow-1);
+  display: flex; align-items: center;
+}
+.nav-logo { width: 80px; height: 80px; display: block; }
+.nav-logotype { margin-left: 18px; }
+.nav-menu { margin-left: auto; margin-right: 40px; display: flex; align-items: center; gap: 24px; }
+.btn-header-secondary {
+  height: 44px; padding: 12px 18px; border: 2px solid var(--coral);
+  display: inline-flex; align-items: center; gap: 4px;
+  font-weight: 600; font-size: 14px; line-height: 24px; color: var(--ink-750);
+}
+.menu-button { display: inline-flex; align-items: center; gap: 4px; font-size: 14px; line-height: 20px; color: var(--ink-750); }
+.avatar {
+  width: 32px; height: 32px; border-radius: 100px; background: var(--ink-500); color: #fff;
+  display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 16px; line-height: 24px;
+}
+.app-body { flex: 1; display: flex; align-items: flex-start; }
+.side-menu { width: 80px; flex: none; align-self: stretch; background: var(--ink-650); display: flex; flex-direction: column; }
+.side-sticky { position: sticky; top: 80px; display: flex; flex-direction: column; }
+.side-item {
+  width: 80px; height: 80px; padding: 10px 0; border-bottom: 1px solid var(--ink-700);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+  background: var(--ink-650); position: relative;
+}
+.side-item.is-active { background: var(--ink-750); border-bottom-color: var(--green-brand); }
+.side-item.is-active::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--green-brand); }
+.side-label { font-size: 13px; line-height: 16px; color: #fff; text-align: center; white-space: pre-line; }
+.side-item.is-active .side-label { -webkit-text-stroke: 0.4px #fff; }
+.chat {
+  width: 479px; flex: none; background: #fff; border: 1px solid var(--ink-300); border-top: 0; border-bottom: 0;
+  display: flex; flex-direction: column; position: sticky; top: 80px; height: calc(var(--app-h, 100vh) - 80px);
+}
+.right { flex: 1; min-width: 0; }

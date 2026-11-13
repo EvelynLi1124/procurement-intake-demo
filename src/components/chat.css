@@ -1,0 +1,56 @@
+.chat-header { height: 60px; flex: none; display: flex; align-items: center; justify-content: space-between; gap: 8px; background: #fff; }
+.chat-action { width: 60px; height: 60px; padding: 10px; display: flex; align-items: center; justify-content: center; flex: none; }
+.chat-title { flex: 1; padding-left: 16px; font-weight: 700; font-size: 22px; line-height: 32px; color: var(--green-700); }
+.chat-area { flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; }
+.chat-stack { flex: 1 0 auto; display: flex; flex-direction: column; }
+.welcome-wrap { display: flex; flex-direction: column; gap: 24px; }
+.welcome { display: flex; flex-direction: column; gap: 12px; }
+.welcome-hi { font-weight: 600; font-size: 44px; line-height: 54px; color: var(--ink-750); }
+.serif { font-family: 'MJH Serif', 'Manulife JH Serif Optimized', serif; font-style: italic; font-weight: 400; }
+.welcome-intro { font-weight: 600; font-size: 26px; line-height: 36px; color: var(--ink-750); }
+.bubble-row { display: flex; }
+.bubble-row.user { justify-content: flex-end; padding-left: 60px; }
+.bubble-row.bot { padding-right: 60px; }
+.bot-col { display: flex; flex-direction: column; gap: 8px; min-width: 0; flex: 1; }
+.bubble { padding: 16px; border: 1px solid var(--ink-400); font-size: 16px; line-height: 24px; overflow-wrap: anywhere; }
+.bubble.user { width: 283px; max-width: 100%; white-space: pre-line; background: var(--ink-650); color: #fff; border-radius: 16px 16px 0 16px; }
+.bubble.bot { background: #fff; color: var(--ink-900); border-radius: 0 16px 16px 16px; }
+.bubble.bot ul { padding-left: 24px; }
+.bubble-actions { display: flex; gap: 8px; padding: 4px; }
+.bubble-actions button { display: flex; }
+.activity { display: flex; flex-direction: column; gap: 8px; }
+.activity-head { display: inline-flex; align-items: center; gap: 4px; align-self: flex-start; }
+.activity-label { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; line-height: 20px; color: var(--ink-800); }
+.activity-detail { padding: 0 16px; display: flex; flex-direction: column; }
+.activity-status { display: flex; align-items: center; gap: 6px; font-size: 14px; line-height: 20px; color: var(--ink-700); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green-700); flex: none; }
+.activity-done { padding-left: 14px; font-size: 14px; line-height: 20px; color: var(--ink-500); }
+.suggest { display: flex; flex-direction: column; gap: 8px; }
+.suggest-title { font-size: 16px; line-height: 24px; color: #000; }
+.pills-small { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.pill-small {
+  padding: 4px 12px; border: 2px solid var(--ink-400); border-radius: 24px; background: #fff;
+  font-size: 14px; line-height: 20px; color: var(--ink-750); text-align: center;
+}
+.pill-small:hover, .prompt-tile:hover { border-color: var(--ink-700); }
+.prompt-tile {
+  width: 367px; height: 56px; padding: 12px 16px; background: #fff; border: 1px solid var(--ink-500); border-radius: 12px;
+  font-size: 16px; line-height: 24px; color: #191b24;
+}
+.prompt-tile span { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.input-area { flex: none; padding: 16px 32px; }
+.chat-field {
+  display: flex; align-items: center; gap: 16px; padding: 12px 16px;
+  background: var(--ink-50); border: 1px solid var(--ink-400); border-radius: 16px;
+}
+.chat-field.is-active { align-items: flex-end; }
+.chat-field-main { flex: 1; display: flex; align-items: center; gap: 16px; min-width: 0; }
+.chat-field.is-active .chat-field-main { align-items: flex-end; padding-bottom: 6px; }
+.chat-field textarea {
+  flex: 1; min-width: 0; resize: none; border: 0; outline: 0; background: transparent; padding: 0;
+  font-size: 16px; line-height: 24px; color: var(--ink-700); height: 24px;
+}
+.chat-field textarea::placeholder { color: var(--ink-700); opacity: 1; }
+.send { display: flex; flex: none; }
+.send:disabled { cursor: default; }
+.welcome-spark { color: var(--green-brand); font-weight: 400; font-family: 'Apple Symbols', 'Segoe UI Symbol', sans-serif; font-size: 1.6em; line-height: 0; vertical-align: -0.08em; }
